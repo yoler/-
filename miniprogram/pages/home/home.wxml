@@ -1,0 +1,5 @@
+<!--miniprogram/pages/home.wxml-->
+<view class="home">
+  <text class="item" bindtap="handleZhongyi">中医针灸预约</text>
+  <text class="item" bindtap="handleXinli">心理咨询预约</text>
+</view>

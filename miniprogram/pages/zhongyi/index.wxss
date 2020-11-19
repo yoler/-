@@ -1,0 +1,19 @@
+/**index.wxss**/
+
+page {
+    background: #f4f4f4;
+  }
+.m-input{
+    background: #fff;
+    height: 50px;
+    padding: 0 14px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.picker{
+    height: 50px;
+    line-height: 50px;
+}
+.btn{
+    margin-top: 40px;
+}

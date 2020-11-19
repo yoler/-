@@ -1,0 +1,28 @@
+/* miniprogram/pages/admin/index.wxml.wxss */
+.admin-container{
+    height: 100%;
+    background: #fff;
+    padding: 16px;
+}
+.admin-item{
+    background: #fff;
+    box-shadow: 0 0 8px 4px #f1f1f1;
+    border-radius: 6px;
+    margin: 16px 8px;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.item-name{
+    display: flex;
+    justify-content: space-between;
+}
+.item-name text{
+    font-size: 14px;
+    font-weight: bold;
+}
+.item-info{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #888;
+    line-height: 24px;
+}

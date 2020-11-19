@@ -1,0 +1,37 @@
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      size="default"
+    ></button>
+    <view class="userinfo-nickname-wrapper">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="openid" selectable="true">({{openid}})</text>
+    </view>
+  </view>
+  <text class="look" bindtap="look" wx:if="{{openid == 'oc2V-5XVTeSGsto_08kW9JV90jxU'}}">查看预约列表</text>
+
+  <view class="admin-container">
+    <view wx:for="{{list}}" class="admin-item" wx:key="index">
+        <view class="item-name">
+            <text>{{item.name}}</text>
+            <text>{{item.mobile}}</text>
+        </view>
+        <view class="item-info">
+            <view>
+                预约时间：{{item.date}} {{item.time}}
+            </view>
+            <view>
+                预约类型：{{item.type == 1 ? '针灸' : '心理咨询'}}
+            </view>
+              
+        </view>
+          
+    </view>
+</view>
+</view>

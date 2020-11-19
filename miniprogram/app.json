@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/zhongyi/index",
+    "pages/admin/index",
+    "pages/person/index"
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "针灸预约",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/person/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

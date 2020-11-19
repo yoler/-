@@ -1,0 +1,20 @@
+<!--miniprogram/pages/admin/index.wxml.wxml-->
+<view class="admin-container">
+    <view wx:for="{{list}}" class="admin-item" wx:key="index">
+        <view class="item-name">
+            <text>{{item.name}}</text>
+            <text>{{item.mobile}}</text>
+        </view>
+        <view class="item-info">
+            <view>
+                预约时间：{{item.date}} {{item.time}}
+            </view>
+            <view>
+                预约类型：{{item.type == 1 ? '针灸' : '心理咨询'}}
+            </view>
+              
+        </view>
+          
+    </view>
+</view>
+  
